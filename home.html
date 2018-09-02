@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Rajiv's Portfolio</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Work+Sans">
+    <script src="https://unpkg.com/typewriter-effect@2.1.1/dist/core.js"></script>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  </head>
+  <body>
+    <div class='page'>
+      <div class='section header center'>
+        <div class='title'>
+          <div class="htext">RAJIV SANCHETI</div>
+        </div>
+        <div class='catchphrase center'>
+          <h2>i love</h2>
+        </div>
+        <div class='rectangle'>
+          <h3 id="typewriter"></h3>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+
+  <script type="text/javascript">
+    const instance = new Typewriter('#typewriter', {
+      strings: ['design', 'longboards', 'avacados', 'color', 'cheese'],
+      autoStart: true,
+      loop: true,
+    });
+  </script>
+
+
+</html>
